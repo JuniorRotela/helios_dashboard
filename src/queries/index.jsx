@@ -48,11 +48,13 @@ const Queries = () => {
             /> 
         </Box>
         </Link>
+        <Link to="/Inventario">
         <Box sx={buttonStyles}>
           <GrassIcon
             sx={{ color: colors.greenAccent[600], fontSize: "80px" }} // Ajusta el color y tamaño del icono según tu preferencia
           />
         </Box>
+        </Link>
         <Link to="/owner/query">
         <Box sx={buttonStyles}>
           <PersonAddIcon

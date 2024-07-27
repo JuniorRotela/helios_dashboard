@@ -138,14 +138,15 @@ const Sidebar = () => {
               Consultas
             </Typography>
             <Item
-              title="Actividades"
-              to="/queries"
-              icon={<PeopleOutlinedIcon />}
+              title="Inventario"
+              to="/inventario"
+              // icon={<PeopleOutlinedIcon />}
+              icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Cuentas"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
